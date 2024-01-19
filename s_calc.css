@@ -1,0 +1,42 @@
+.container{
+    background-color: black;
+}
+
+.table{
+    border-radius: 5px;
+}
+
+.table td{
+    background-color: black;
+    border: none;
+}
+
+@keyframes glow{
+    0% {box-shadow: 0 0 5px #00f;}
+    50% {box-shadow: 0 0 20px #00f;}
+    100% {box-shadow: 0 0 5px #00f;}
+}
+
+h3:hover{
+    animation: glow 3s infinite;
+}
+
+table:hover{
+    animation: glow 3s infinite;
+}
+
+
+td:hover{
+    animation: glow 3s infinite;
+}
+
+.table{
+    border: 3px solid white;
+    border-color: white;
+}
+
+
+button{
+    font-weight: bolder;
+    font-size: large;
+}
